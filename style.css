@@ -1,0 +1,54 @@
+.heading{
+    font-size: 23px;
+    width: 800px;
+    margin: 0px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+    box-shadow: 5px 5px 5px green;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+.copy_right_footer{
+
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 2;
+    text-align: center;
+}
+
+    
+    canvas{
+        animation-name: change-color;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        border: 5px solid white;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 55px;
+        }
+        @keyframes change-color {
+             0%{box-shadow:1px 1px 10px red;}
+             25%{box-shadow:1px 1px 10px yellow;}
+             50%{box-shadow:1px 1px 10px blue;}
+             75%{box-shadow:1px 1px 10px green;}
+             100%{box-shadow:1px 1px 10px orange;}
+        }
+    
+.note{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    background-color:orangered;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
